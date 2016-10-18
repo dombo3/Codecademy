@@ -1,0 +1,168 @@
+/** {
+  border:dashed blue;
+}*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.main h1 {
+  font-size: 20px;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration:none;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color:#333;
+  color: white;
+  text-transform: uppercase;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Main */
+.main {
+  height: 600px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+  background-size:cover;
+	text-align:center;
+  position:relative;
+}
+
+.main h1 {
+  font-size: 100px;
+  color:white;
+}
+
+.main p {
+  font-size: 18px;
+  color:white;
+}
+
+/* Supporting */
+.supporting {
+  padding: 20px 10px;
+  text-align: center;
+  background-color: #1c1c1c;
+  position:relative;
+}
+
+.supporting .col {
+  display: inline-block;
+  
+}
+
+.supporting h1,
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg);
+  background-size:cover;
+  position:relative;
+  text-align:center;
+  
+}
+
+.feature h1,
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg);
+  position:relative;
+  text-align:center;
+  background-size:cover;
+}
+
+.footer h1,
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.btn:hover{
+  background-color:#e8a109;
+}
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+
+  .supporting .col {
+    width: 30%;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+  }
+
+  .feature h2 {
+    font-size: 60px;
+  }
+}
