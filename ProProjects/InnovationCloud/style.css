@@ -139,7 +139,8 @@ li:hover {
 /* Footer */
 .footer { 
 	font-size: 14px;
-  background: black;
+    background: black;
+    padding:1px;
 }
 
 .footer p {
