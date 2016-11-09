@@ -1,0 +1,163 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+
+.nav {
+  background: black;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 30px 25px 30px 25px;
+  color: white;
+  margin: auto;
+  text-align:center;
+}
+
+li:hover {
+  background-color: #333;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px; 
+	padding: 0 10px;
+}
+
+
+/* Header */
+.header {
+  height: 800px;
+  text-align: center;
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);
+  background-size:cover;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+	font-size: 80px;
+	line-height: 100px; 
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+  color: white;
+}
+
+.btn-default {
+  text-decoration: none;
+  color: white;
+  background: black;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+li:hover {
+	background: #117bff;
+	cursor: pointer; 
+	transition: background .5s;  
+}
+
+/* Nav */
+.nav ul {
+	list-style: none;
+	margin: 0 auto; 
+	text-align: left; 
+}
+
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+.main img {
+    position:static;
+  	float:left;
+    height:200px;
+    width:300px;
+  }
+
+/* Jumbotron */
+.jumbotron {
+	height: 600px; 
+	text-align: right;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);
+  background-size:cover;
+  position:relative;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+.jumbotron .connect {
+  position:absolute;
+  right: 15%;
+  top: 30%;
+  
+}
+
+/* Footer */
+.footer { 
+	font-size: 14px;
+  background: black;
+}
+
+.footer p {
+  padding-left: 20%;
+  color: white;
+}
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width:100%;
+  }
+}
