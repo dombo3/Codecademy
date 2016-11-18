@@ -1,0 +1,147 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+  background-image:url(diagmonds_@2X.png);
+}
+
+.container {
+  max-width: 970px;
+}
+
+.supporting {
+  background-image: url("s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
+  background-size: 141px 142px;
+}
+
+
+.header a {
+  margin-right: 30px;
+  text-decoration:none;
+  color: #fff;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+	 background-color:rgb(0,0,0);  
+	color: #fff;
+  height:700px;
+}
+
+.jumbotron .btn {
+  	background: transparent;
+    padding: 10px 20px;
+  	text-decoration: none;
+  	color: #0393FF;
+  	display: inline-block;
+  	border: 1px solid #0393FF;
+  	border-radius: 2px;
+}
+
+.jumbotron h1 { 
+        margin-top:80px; 
+        margin-bottom:40px;  
+      }
+
+.jumbotron .btn:hover {
+  color:#fff;
+  background-color:#0393FF;
+}
+
+.jumbotron .main {
+  text-align: center;
+}
+
+form {
+  margin-top:80px;
+}
+
+#search {
+  width: 400px;
+  margin: 0 20px; 
+}
+
+input[type=text] {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 2px solid grey;
+	
+  -webkit-appearance: none;
+}
+
+input[type=text]:hover {
+  border-bottom: 2px solid #0393FF;
+}
+
+input[type=text]:focus {
+  box-shadow:none;
+  border-bottom: 2px solid #0393FF
+}
+
+
+/*Supporting*/
+
+.supporting {
+  text-align: center;
+  color: white;
+}
+
+.supporting h2 {
+  color: #0393FF;
+}
+
+.supporting .thumbnail {
+  padding: 0;
+  border: none;
+}
+
+
+/*Feature*/
+
+.feature {
+  height: 400px;
+  color:white;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.feature h2 {
+  color: #0393FF;
+}
+
+.section {
+  	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*Footer*/
+
+.footer {
+  color: white;
+  background: #000;
+  text-align:center;
+}
+
+.footer ul{
+  list-style: none;
+  color: #0393FF;
+  padding-left:0;
+}
+
+
+@media (max-width: 770px) {
+  #search {
+    width: 100%;
+    margin: 20px;
+  }
+  
+}
